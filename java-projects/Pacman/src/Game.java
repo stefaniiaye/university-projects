@@ -28,10 +28,10 @@ public class Game extends JFrame implements Runnable{
     public static boolean plusLive;
     public static boolean plusScore;
 
-    private static JLabel heart1 = new JLabel (new ImageIcon("heart.png"));
-    private static JLabel heart2 = new JLabel (new ImageIcon("heart.png"));
-    private static JLabel heart3 = new JLabel (new ImageIcon("heart.png"));
-    private static JLabel heart4 = new JLabel (new ImageIcon("heart.png"));
+    private static JLabel heart1 = new JLabel (new ImageIcon("pics/heart.png"));
+    private static JLabel heart2 = new JLabel (new ImageIcon("pics/heart.png"));
+    private static JLabel heart3 = new JLabel (new ImageIcon("pics/heart.png"));
+    private static JLabel heart4 = new JLabel (new ImageIcon("pics/heart.png"));
 
     public static int scoreX = 1;
     public static int pacSpeedX = 1;

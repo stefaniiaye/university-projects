@@ -23,35 +23,35 @@ public class BoardTableCellRenderer extends JLabel implements TableCellRenderer 
 
     public BoardTableCellRenderer(int cellSize){
         this.cellSize = cellSize;
-        pacman_R = new ImageIcon("pacright.png");
+        pacman_R = new ImageIcon("pics/pacright.png");
         scaledPacmanR = new ImageIcon(pacman_R.getImage().getScaledInstance(cellSize, cellSize, Image.SCALE_SMOOTH));
 
-        pacman_L = new ImageIcon("pacleft.png");
+        pacman_L = new ImageIcon("pics/pacleft.png");
         scaledPacmanL = new ImageIcon(pacman_L.getImage().getScaledInstance(cellSize, cellSize, Image.SCALE_SMOOTH));
 
-        pacman_U = new ImageIcon("pacup.png");
+        pacman_U = new ImageIcon("pics/pacup.png");
         scaledPacmanU = new ImageIcon(pacman_U.getImage().getScaledInstance(cellSize, cellSize, Image.SCALE_SMOOTH));
 
-        pacman_D = new ImageIcon("pacdown.png");
+        pacman_D = new ImageIcon("pics/pacdown.png");
         scaledPacmanD = new ImageIcon(pacman_D.getImage().getScaledInstance(cellSize, cellSize, Image.SCALE_SMOOTH));
 
-        pacman = new ImageIcon("pacman.png");
+        pacman = new ImageIcon("pics/pacman.png");
         scaledPacman = new ImageIcon(pacman.getImage().getScaledInstance(cellSize, cellSize, Image.SCALE_SMOOTH));
 
-        ghost1 = new ImageIcon("ghost1.png");
+        ghost1 = new ImageIcon("pics/ghost1.png");
         scaledGhost1 = new ImageIcon(ghost1.getImage().getScaledInstance(cellSize, cellSize, Image.SCALE_SMOOTH));
 
-        ghost2 = new ImageIcon("ghost2.png");
+        ghost2 = new ImageIcon("pics/ghost2.png");
         scaledGhost2 = new ImageIcon(ghost2.getImage().getScaledInstance(cellSize, cellSize, Image.SCALE_SMOOTH));
 
-        fruit = new ImageIcon("fruit.png");
+        fruit = new ImageIcon("pics/fruit.png");
         scaledFruit = new ImageIcon(fruit.getImage().getScaledInstance(cellSize, cellSize, Image.SCALE_SMOOTH));
 
-        wall = new ImageIcon("brick.png");
+        wall = new ImageIcon("pics/brick.png");
         scaledWall = new ImageIcon(wall.getImage().getScaledInstance(cellSize, cellSize, Image.SCALE_SMOOTH));
 
-        dot = new ImageIcon("dot.png");
-        candy = new ImageIcon("candy.png");
+        dot = new ImageIcon("pics/dot.png");
+        candy = new ImageIcon("pics/candy.png");
         scaledCandy = new ImageIcon(candy.getImage().getScaledInstance(cellSize, cellSize, Image.SCALE_SMOOTH));
 
         setHorizontalAlignment(CENTER);

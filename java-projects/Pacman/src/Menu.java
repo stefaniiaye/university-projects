@@ -17,7 +17,7 @@ public class Menu extends JFrame {
         listModel = new DefaultListModel<>();
         highScoresL = new JList<>(listModel);
 
-        ImageIcon logo = new ImageIcon("logo2.gif");
+        ImageIcon logo = new ImageIcon("pics/logo2.gif");
         Image image = logo.getImage();
         Image scaledImage = image.getScaledInstance(300,125 , Image.SCALE_SMOOTH);
         JLabel title = new JLabel(new ImageIcon(scaledImage));
