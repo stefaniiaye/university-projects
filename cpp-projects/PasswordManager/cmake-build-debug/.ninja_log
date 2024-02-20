@@ -1,0 +1,7 @@
+# ninja log v5
+30	13938	7301559386819016	CMakeFiles/PJC_PRO.dir/main.cpp.obj	31ac463049c100ab
+32371	37773	7301559628942992	PJC_PRO.exe	9b7bf2a44b5a75fc
+49	32369	7301559574843662	CMakeFiles/PJC_PRO.dir/manager.cpp.obj	5d3bfa9a64dfd726
+4	17515	7301560590071128	CMakeFiles/PasswordManager.dir/main.cpp.obj	873367f2f20df980
+47	23463	7301560649822593	CMakeFiles/PasswordManager.dir/manager.cpp.obj	74d83bebd5d50ba8
+23466	28334	7301560698544340	PasswordManager.exe	72d08cf3541625a7
